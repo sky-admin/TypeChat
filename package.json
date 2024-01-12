@@ -1,6 +1,6 @@
 {
-  "name": "typechat",
-  "author": "Microsoft",
+  "name": "@sky-admin/typechat",
+  "author": "skyadmin",
   "version": "0.0.10",
   "license": "MIT",
   "description": "TypeChat is an experimental library that makes it easy to build natural language interfaces using types.",
@@ -11,6 +11,9 @@
     "TypeScript",
     "validation"
   ],
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
   "homepage": "https://github.com/microsoft/TypeChat#readme",
   "repository": {
     "type": "git",
@@ -30,6 +33,7 @@
     "node": ">=18"
   },
   "files": [
+    "src",
     "dist",
     "LICENSE",
     "README.md",
